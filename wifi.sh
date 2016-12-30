@@ -1,0 +1,1 @@
+sudo printf "\niface wlan0 inet dhcp\n\twpa-ssid \"$1\"\n\twpa-psk \"$2\"" >> /etc/network/interfaces
