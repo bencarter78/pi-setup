@@ -70,7 +70,7 @@ There is a great [getting started guide for the Pi camera] (https://www.raspberr
 - camera/video.py (Yep, you guessed it, records a video*)
 - camera/transparency.py (Alters the transparentcy of the captured video.)
 
-__ *Saved to a directory called pi-camera on your desktop.__
+__*Saved to a directory called pi-camera on your desktop.__
 
 ### Option 1 - Using the terminal
 
