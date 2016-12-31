@@ -63,7 +63,14 @@ Or if the Keyboard option is not showing go to the following and ensure Keyboard
 
 ## Setting up a Pi camera
 
-There is a great [getting started guide for the Pi camera] (https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/) which also gives you some python scripts that will show you how to start recording videos and images.
+There is a great [getting started guide for the Pi camera] (https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/) which also gives you some python scripts that will show you how to start recording videos and images. The scripts available are:
+
+- camera/preview.py (Shows a preview of the camera)
+- camera/photo.py (Takes a photo*)
+- camera/video.py (Yep, you guessed it, records a video*)
+- camera/transparency.py (Alters the transparentcy of the captured video.)
+
+*\*Saved to a directory called pi-camera on your desktop.*
 
 ### Option 1 - Using the terminal
 
