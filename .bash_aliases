@@ -14,11 +14,9 @@ alias reload="source ~/.bashrc"
 alias config="vim ~/.bashrc"
 
 # Git
-alias ga="git add"
+alias gaa="git add -A"
 alias gs="git status"
-alias gc="git commit -m "
-alias gp="git push"
-alias rmidea="git rm -r --cached .idea"
+alias gcmsg="git commit -m "
 alias gmeh="git reset --hard HEAD && git clean -df"
 
 # Composer

@@ -1,9 +1,13 @@
+# Update and upgrade
+sudo apt-get update
+sudo apt-get upgrade
+
 # Create a new user
 
 # Disable login for pi user
 
 # Enable SSH server
-touch /boot/ssh
+sudo touch /boot/ssh
 
 # This will set up a environment for a raspberry pi
 mv .bash_aliases ~/.bash_aliases
@@ -18,3 +22,6 @@ sudo apt-get install vim-runtime
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 mv .vimrc ~/.vimrc
+
+#  Reload .bashrc
+source ~/.bashrc

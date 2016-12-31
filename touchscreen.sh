@@ -11,3 +11,6 @@ tar xvzf LCD-show-161112.tar.gz
 
 # Install the driver
 cd LCD-show && ./LCD5-show
+
+# Install a On Screen Keyboard (OSK)
+sudo apt-get install matchbox-keyboard
