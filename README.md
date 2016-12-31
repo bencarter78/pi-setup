@@ -54,11 +54,11 @@ Once this is complete you will need to calibrate the screen by clicking the "Men
 
 If you would like an on-screen keyboard then you can access the keyboard: 
 
-*Menu >> Accessories >> Keyboard*
+**Menu >> Accessories >> Keyboard**
 
 Or if the Keyboard option is not showing go to the following and ensure Keyboard is checked.
 
-*Menu >> Preferences >> Main Menu Editor*
+**Menu >> Preferences >> Main Menu Editor**
 
 
 ## Setting up a Pi camera
@@ -70,7 +70,7 @@ There is a great [getting started guide for the Pi camera] (https://www.raspberr
 - camera/video.py (Yep, you guessed it, records a video*)
 - camera/transparency.py (Alters the transparentcy of the captured video.)
 
-*\*Saved to a directory called pi-camera on your desktop.*
+***Saved to a directory called pi-camera on your desktop.**
 
 ### Option 1 - Using the terminal
 
@@ -78,9 +78,9 @@ Enter the terminal using `sudo raspi-config` and selecting `Enable camera`. It w
 
 ### Option 2 - Through the Desktop
 
-Go to *Menu >> Preferences >> Raspberry Pi Configuration* click the *Interfaces* tab and check *Camera* so that it is enabled.
+Go to **Menu >> Preferences >> Raspberry Pi Configuration** click the **Interfaces** tab and check **Camera** so that it is enabled.
 
-There are some scripts to get you started in the *camera* directory of this repository. To run any of them simply run the following in the Terminal.
+There are some scripts to get you started in the **camera** directory of this repository. To run any of them simply run the following in the Terminal.
 
 `python camera/name-of-the-file`
 
