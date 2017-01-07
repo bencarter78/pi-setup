@@ -18,6 +18,8 @@ To get started you will need to connect your Raspberry Pi to the internet. If yo
 
 `sudo printf "\niface wlan0 inet dhcp\n\twpa-ssid \"THE-NAME-OF-YOUR-WIFI\"\n\twpa-psk \"YOUR-WIFI-PASSWORD\"" >> /etc/network/interfaces`
 
+If you're not comfortable then just use the 
+
 
 ## Download this repository
 

@@ -29,5 +29,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vi
 
 mv dotfiles/.vimrc ~/.vimrc
 
+# Install imutils for the motion detection
+pip install imutils
 #  Reload .bashrc
 source ~/.bashrc
