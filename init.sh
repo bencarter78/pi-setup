@@ -12,8 +12,20 @@ sudo apt-get upgrade
 # Enable SSH server
 sudo touch /boot/ssh
 
+# Install virtualenv for Python
+sudo pip install virtualenv virtualenvwrapper
+sudo rm -rf ~/.cache/pip
+
+# virtualenv and virtualenvwrapper
+sudo printf "# virtualenv and virtualenvwrapper" >> ~/.profile
+sudo printf "\nexport WORKON_HOME=\$HOME/.virtualenvs" >> ~/.profile
+sudo printf "\nsource /usr/local/bin/virtualenvwrapper.sh"  >> ~/.profile
+
 # Install zip
 sudo apt-get install -y zip
+
+# Install wget
+sudo apt-get install -y wget
 
 # This will set up a environment for a raspberry pi
 mv dotfiles/.bash_aliases ~/.bash_aliases
@@ -31,5 +43,8 @@ mv dotfiles/.vimrc ~/.vimrc
 
 # Install imutils for the motion detection
 pip install imutils
-#  Reload .bashrc
+
+
+#  Reload .bashrc & the profile
 source ~/.bashrc
+source ~/.profile
